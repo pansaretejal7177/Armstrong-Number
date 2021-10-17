@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armstrong</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+
+<body>
+    <div class="container">
+        <section id="nav">
+            <nav>
+                <a href="#code">Code</a>
+                <a href="#input">Input</a>
+                <a href="#output">Output</a>
+                <a href="#variables">Variables</a>
+                <a href="#complexity">Complexity</a>
+            </nav>
+        </section>
+
+
+        <h1>To Check Number is Armstrong Number or Not?</h1>
+
+        <section id="code">
+            <embed>
+            <textarea name="program" rows="20" cols="50">
+            #include <iostream>  
+            using namespace std;  
+            int main()  
+            {  
+                int n,r,sum=0,temp;     
+                cout<<"Enter the Number=  ";    
+                cin>>n;    
+                temp=n;    
+                
+                while(n>0)    
+                {    
+                    r=n%10;    
+                    sum=sum+(r*r*r);    
+                    n=n/10;    
+                }    
+                
+                if(temp==sum)    
+                cout<<"Armstrong Number."<<endl;    
+                else    
+                cout<<"Not Armstrong Number."<<endl;   
+                return 0;  
+            }  
+            </textarea>
+        </embed>
+        </section>
+
+        <section id="input">
+            <h2>Input</h2>
+            <img src="ip2.PNG" alt="input">
+        </section>
+
+        <section id="output">
+            <h2>Output</h2>
+            <img src="op2.PNG" alt="output">
+        </section>
+
+        <section id="variables">
+            <h2>Variables Used:</h2>
+            <ul>
+                <li>n</li>
+                <li>r</li>
+                <li>temp</li>
+                <li>sum</li>
+            </ul>
+        </section>
+
+        <section id="complexity">
+            <h2>Complexity</h2>
+            <p>log n</p>
+        </section>
+    </div>
+</body>
+
+</html>

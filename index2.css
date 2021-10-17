@@ -1,0 +1,19 @@
+.container{
+    background-color: bisque;
+    width: 60%;
+    margin: auto;
+}
+
+a{
+    font-size: 20px;
+    color: blue;
+    padding-left: 30px;
+}
+
+nav{
+    margin-left: 32%;
+}
+
+img{
+    display: block;
+}
